@@ -1,0 +1,21 @@
+body {font-family: sans-serif, Helvetica}
+.titulo {color: #ecb807;font-style: italic;text-align: center;}
+.login {
+    max-width: 30%;
+    border-radius: 25px;
+    border: 1px solid gray;
+    margin: 100px auto;
+    padding: 40px;
+}
+.etiqueta, .textbox, .btn-submit, .forgot-link {
+    display: block;
+    margin-bottom: 10px;
+}
+.textbox {
+    width: 100%;
+    padding: 10px 0;
+    text-indent: 10px;
+}
+.btn-submit{color: #fff; background-color: #1d8097; padding: 10px; border: none}
+.btn-submit:hover {background-color: #155d74; cursor: pointer}
+.forgot-link {text-align: right; text-decoration: none}
